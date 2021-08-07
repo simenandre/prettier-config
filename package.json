@@ -1,0 +1,16 @@
+{
+  "name": "@cobraz/prettier-config",
+  "version": "1.0.0",
+  "description": "A reuseable, simple prettier config",
+  "main": "config.js",
+  "repository": "github:cobraz/prettier-config",
+  "author": "Simen A. W. Olsen <so@bjerk.io>",
+  "license": "Apache-2.0",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "prettier": "*"
+  }
+}
