@@ -16,12 +16,10 @@ jobs:
           cache: yarn
           registry-url: 'https://registry.npmjs.org'
       - run: yarn install
-      - run: echo ${{ steps.get_version.outputs.version-without-v }}
       - name: Set version
         run: |
             yarn version --no-commit-hooks --no-git-tag-version \
             --new-version ${{ steps.get_version.outputs.version-without-v }}
-      - run: cat package.json
       - run: yarn publish --ignore-scripts
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
