@@ -1,5 +1,5 @@
 {
-  "name": "@cobraz/prettier-config",
+  "name": "@cobraz/prettier",
   "version": "1.0.0",
   "description": "A reuseable, simple prettier config",
   "main": "prettierrc.js",
