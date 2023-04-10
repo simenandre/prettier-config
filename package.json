@@ -1,17 +1,17 @@
 {
   "name": "@cobraz/prettier",
   "version": "1.0.0",
-  "description": "A reuseable, simple prettier config",
-  "main": "prettierrc.js",
-  "repository": "github:cobraz/prettier-config",
-  "author": "Simen A. W. Olsen <so@bjerk.io>",
-  "license": "Apache-2.0",
   "private": false,
-  "publishConfig": {
-    "access": "public"
-  },
+  "description": "A reuseable, simple prettier config",
+  "repository": "github:simenandre/prettier-config",
+  "license": "Apache-2.0",
+  "author": "Simen A. W. Olsen <so@bjerk.io>",
+  "main": "prettierrc.js",
   "peerDependencies": {
     "prettier": "*"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "peerDevDependencies": [
     "prettier"
