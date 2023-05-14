@@ -2,6 +2,7 @@
   "name": "@cobraz/prettier",
   "version": "1.0.0",
   "description": "A reuseable, simple prettier config",
+  "deprecated": "This package is deprecated. Use @simenandre/prettier instead.",
   "main": "prettierrc.js",
   "repository": "github:cobraz/prettier-config",
   "author": "Simen A. W. Olsen <so@bjerk.io>",
