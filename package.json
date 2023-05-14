@@ -1,19 +1,25 @@
 {
-  "name": "@cobraz/prettier",
+  "name": "@simenandre/prettier",
   "version": "1.0.0",
   "description": "A reuseable, simple prettier config",
   "main": "prettierrc.js",
-  "repository": "github:cobraz/prettier-config",
+  "repository": "github:simenandre/prettier-config",
   "author": "Simen A. W. Olsen <so@bjerk.io>",
   "license": "Apache-2.0",
+  "packageManager": "pnpm@8.5.0",
   "private": false,
+  "prettier": "./prettierrc.js",
   "publishConfig": {
     "access": "public"
   },
-  "peerDependencies": {
-    "prettier": "*"
+  "devDependencies": {
+    "prettier": "^2.8.8",
+    "prettier-plugin-organize-imports": "^3.2.2",
+    "prettier-plugin-package-perfection": "^1.1.0"
   },
-  "peerDevDependencies": [
-    "prettier"
-  ]
+  "peerDependencies": {
+    "prettier": "^2.8.8",
+    "prettier-plugin-organize-imports": "^3.2.2",
+    "prettier-plugin-package-perfection": "^1.1.0"
+  }
 }
