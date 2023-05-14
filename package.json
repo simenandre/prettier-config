@@ -1,6 +1,6 @@
 {
   "name": "@simenandre/prettier",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "A reuseable, simple prettier config",
   "main": "prettierrc.js",
   "repository": "github:simenandre/prettier-config",
