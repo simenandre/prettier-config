@@ -1,17 +1,17 @@
-# @cobraz/prettier
+# @simenandre/prettier
 
 Reusable prettier config
 
 ## Installation
 
 ```bash
-npm i -D @cobraz/prettier
+yarn add --dev @simenandre/prettier
 ```
 
 or
 
-```
-yarn add --dev @cobraz/prettier
+```bash
+pnpm add --save-dev @simenandre/prettier
 ```
 
 ## Usage
@@ -19,15 +19,16 @@ yarn add --dev @cobraz/prettier
 Add a key in your **package.json** file.
 
 ```
-"prettier": "@cobraz/prettier"
+"prettier": "@simenandre/prettier"
 ```
 
 **OR**
 
-Create a **.prettierrc** , **.prettierrc.yaml** , **.prettierrc.yml** or **.prettierrc.json** file and export a string.
+Create a **.prettierrc** , **.prettierrc.yaml** , **.prettierrc.yml** or
+**.prettierrc.json** file and export a string.
 
 ```
-"@cobraz/prettier"
+"@simenandre/prettier"
 ```
 
 **OR**
@@ -36,7 +37,7 @@ Create a **prettier.config.js** or **.prettierrc.js** file and export an object.
 
 ```
 module.exports = {
-  ...require("@cobraz/prettier"),
+  ...require("@simenandre/prettier"),
   tabWidth: 2,
 };
 ```
