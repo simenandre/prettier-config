@@ -6,7 +6,7 @@
   "repository": "github:simenandre/prettier-config",
   "author": "Simen A. W. Olsen <so@bjerk.io>",
   "license": "Apache-2.0",
-  "packageManager": "pnpm@8.5.0",
+  "packageManager": "pnpm@8.5.1",
   "private": false,
   "prettier": "./prettierrc.js",
   "publishConfig": {
