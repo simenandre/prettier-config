@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "@simenandre/prettier",
-  "version": "3.0.2",
+  "version": "4.0.0",
   "description": "A reuseable, simple prettier config",
   "license": "Apache-2.0",
   "author": "Simen A. W. Olsen <so@bjerk.io>",
