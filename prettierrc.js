@@ -11,8 +11,5 @@ module.exports = {
   proseWrap: 'always',
   arrowParens: 'avoid',
 
-  plugins: [
-    'prettier-plugin-organize-imports',
-    'prettier-plugin-package-perfection',
-  ],
+  plugins: ['prettier-plugin-package-perfection'],
 };
