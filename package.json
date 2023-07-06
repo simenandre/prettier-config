@@ -11,10 +11,10 @@
     "prettier-plugin-package-perfection": "^1.1.0"
   },
   "peerDependencies": {
-    "prettier": "^2.8.8"
+    "prettier": "^3.0.0"
   },
   "devDependencies": {
-    "prettier": "^2.8.8"
+    "prettier": "^3.0.0"
   },
   "publishConfig": {
     "access": "public"
