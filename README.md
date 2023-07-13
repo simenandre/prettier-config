@@ -2,9 +2,6 @@
 
 Reusable prettier config.
 
-In v3, this config added `prettier-plugin-organize-imports` but was removed
-again in v4.
-
 ## Installation
 
 ```bash
