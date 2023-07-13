@@ -4,11 +4,6 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-dependencies:
-  prettier-plugin-package-perfection:
-    specifier: ^1.1.0
-    version: 1.1.0
-
 devDependencies:
   prettier:
     specifier: ^3.0.0

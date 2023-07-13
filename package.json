@@ -7,15 +7,15 @@
   "author": "Simen A. W. Olsen <so@bjerk.io>",
   "repository": "github:simenandre/prettier-config",
   "main": "prettierrc.js",
-  "dependencies": {
-    "prettier-plugin-package-perfection": "^1.1.0"
-  },
   "peerDependencies": {
     "prettier": "^3.0.0"
   },
   "devDependencies": {
     "prettier": "^3.0.0"
   },
+  "peerDevDependencies": [
+    "prettier"
+  ],
   "publishConfig": {
     "access": "public"
   },

@@ -10,6 +10,4 @@ module.exports = {
   htmlWhitespaceSensitivity: 'ignore',
   proseWrap: 'always',
   arrowParens: 'avoid',
-
-  plugins: ['prettier-plugin-package-perfection'],
 };
