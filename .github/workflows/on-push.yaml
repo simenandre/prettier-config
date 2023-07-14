@@ -1,0 +1,14 @@
+name: On Push
+
+on:
+  push:
+    branches:
+      - main
+      - "[0-9]+.x"
+    tags:
+      - "*"
+
+jobs:
+  typical-workflow:
+    name: Lint, format, test and build
+    uses: bjerkio/workflows/pnpm-typical.yml@v1
